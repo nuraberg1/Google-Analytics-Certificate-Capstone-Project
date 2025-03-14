@@ -283,7 +283,7 @@ SELECT
   CASE
     WHEN total_sleep_hours < 6 THEN "Sleep Deficit"
     WHEN total_sleep_hours BETWEEN 6 AND 8 THEN "Optimal Sleep"
-    WHEN total_sleep_hours > 6 THEN "Excess Sleep"
+    WHEN total_sleep_hours > 8 THEN "Excess Sleep"
   END AS sleep_category
 FROM sleep_summary
 ORDER BY sleep_date DESC, sleep_start_time;
