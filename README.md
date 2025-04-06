@@ -1,5 +1,4 @@
-# PortfolioProject 3
-Case Study - Google Analytics Certificate Capstone Project
+# Case Study - Google Analytics Certificate Capstone Project
 
 This is final course of Google Analytics Certificate program. 
 
